@@ -381,7 +381,6 @@ On future invokes, even after forcing new Lambda execution environments, cold st
             <th scope="col">p90</th>
             <th scope="col">p99</th>
             <th scope="col">max</th>
-            <th scope="col">Invoke Count</th>
             <th scope="col">p50</th>
             <th scope="col">p90</th>
             <th scope="col">p99</th>
@@ -393,7 +392,6 @@ On future invokes, even after forcing new Lambda execution environments, cold st
             <td>397.03</td>
             <td>468.21</td>
             <td>587.79</td>
-            <td>30,849</td>
             <td><b style="color: green">6.45</b></td>
             <td><b style="color: green">10.33</b></td>
             <td><b style="color: green">30.28</b></td>
@@ -405,7 +403,6 @@ On future invokes, even after forcing new Lambda execution environments, cold st
             <td>401.42</td>
             <td>489.75</td>
             <td>563.01</td>
-            <td>60,211</td>
             <td><b style="color: green">6.30</b></td>
             <td><b style="color: green">10.08</b></td>
             <td><b style="color: green">25.00</b></td>
@@ -417,7 +414,6 @@ On future invokes, even after forcing new Lambda execution environments, cold st
             <td>379.95</td>
             <td>449.41</td>
             <td>489.89</td>
-            <td>76,457</td>
             <td><b style="color: green">6.30</b></td>
             <td><b style="color: green">9.84</b></td>
             <td><b style="color: green">21.66</b></td>
@@ -429,7 +425,6 @@ On future invokes, even after forcing new Lambda execution environments, cold st
             <td>411.99</td>
             <td>488.78</td>
             <td>493.73</td>
-            <td>77,499</td>
             <td><b style="color: green">6.15</b></td>
             <td><b style="color: green">10.24</b></td>
             <td><b style="color: green">23.84</b></td>
@@ -441,7 +436,6 @@ On future invokes, even after forcing new Lambda execution environments, cold st
             <td>338.69</td>
             <td>398.22</td>
             <td>405.62</td>
-            <td>155,665</td>
             <td><b style="color: green">5.59</b></td>
             <td><b style="color: green">8.39</b></td>
             <td><b style="color: green">16.79</b></td>
@@ -453,7 +447,6 @@ On future invokes, even after forcing new Lambda execution environments, cold st
             <td>522.45</td>
             <td>895.03</td>
             <td>895.03</td>
-            <td>156,359</td>
             <td><b style="color: green">5.64</b></td>
             <td><b style="color: green">8.80</b></td>
             <td><b style="color: green">16.08</b></td>
