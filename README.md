@@ -372,8 +372,8 @@ On future invokes, even after forcing new Lambda execution environments, cold st
 <table class="table-bordered">
         <tr>
             <th colspan="1" style="horizontal-align : middle;text-align:center;"></th>
-            <th colspan="5" style="horizontal-align : middle;text-align:center;">Cold Start (ms)</th>
-            <th colspan="5" style="horizontal-align : middle;text-align:center;">Warm Start (ms)</th>           
+            <th colspan="4" style="horizontal-align : middle;text-align:center;">Cold Start (ms)</th>
+            <th colspan="4" style="horizontal-align : middle;text-align:center;">Warm Start (ms)</th>           
         </tr>
         <tr>
             <th></th>
