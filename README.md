@@ -369,28 +369,11 @@ On future invokes, even after forcing new Lambda execution environments, cold st
 
 ### .NET 8
 
-The .NET 8 numbers below are generated using Release Candidate 2. They will be updated with the GA version of .NET 8 on GA.
-
-The .NET 8 benchmarks include the number of cold and warm starts, alongside the performance numbers. Typically, the cold starts account for 1% or less of the total number of invocations.
-
 <table class="table-bordered">
         <tr>
             <th colspan="1" style="horizontal-align : middle;text-align:center;"></th>
             <th colspan="5" style="horizontal-align : middle;text-align:center;">Cold Start (ms)</th>
             <th colspan="5" style="horizontal-align : middle;text-align:center;">Warm Start (ms)</th>           
-        </tr>
-        <tr>
-            <th></th>
-            <th scope="col">Invoke Count</th>
-            <th scope="col">p50</th>
-            <th scope="col">p90</th>
-            <th scope="col">p99</th>
-            <th scope="col">max</th>
-            <th scope="col">Invoke Count</th>
-            <th scope="col">p50</th>
-            <th scope="col">p90</th>
-            <th scope="col">p99</th>
-            <th scope="col">max</th>
         </tr>
         <tr>
             <th>X86 Native AOT with OptimizationPreference (Size)</th>
