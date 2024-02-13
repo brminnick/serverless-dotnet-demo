@@ -369,10 +369,6 @@ On future invokes, even after forcing new Lambda execution environments, cold st
 
 ### .NET 8
 
-The .NET 8 numbers below are generated using Release Candidate 2. They will be updated with the GA version of .NET 8 on GA.
-
-The .NET 8 benchmarks include the number of cold and warm starts, alongside the performance numbers. Typically, the cold starts account for 1% or less of the total number of invocations.
-
 <table class="table-bordered">
         <tr>
             <th colspan="1" style="horizontal-align : middle;text-align:center;"></th>
@@ -381,7 +377,6 @@ The .NET 8 benchmarks include the number of cold and warm starts, alongside the 
         </tr>
         <tr>
             <th></th>
-            <th scope="col">Invoke Count</th>
             <th scope="col">p50</th>
             <th scope="col">p90</th>
             <th scope="col">p99</th>
@@ -394,7 +389,6 @@ The .NET 8 benchmarks include the number of cold and warm starts, alongside the 
         </tr>
         <tr>
             <th>X86 Native AOT with OptimizationPreference (Size)</th>
-            <td>245</td>
             <td>348.65</td>
             <td>397.03</td>
             <td>468.21</td>
@@ -407,7 +401,6 @@ The .NET 8 benchmarks include the number of cold and warm starts, alongside the 
         </tr>
         <tr>
             <th>X86 Native AOT with OptimizationPreference (Speed)</th>
-            <td>437</td>
             <td>364.69</td>
             <td>401.42</td>
             <td>489.75</td>
@@ -420,7 +413,6 @@ The .NET 8 benchmarks include the number of cold and warm starts, alongside the 
         </tr>
         <tr>
             <th>X86 Native AOT with OptimizationPreference (`Size`) IlcInstructionSet (`skylake`)</th>
-            <td>360</td>
             <td>347.26</td>
             <td>379.95</td>
             <td>449.41</td>
@@ -433,7 +425,6 @@ The .NET 8 benchmarks include the number of cold and warm starts, alongside the 
         </tr>
         <tr>
             <th>X86 Native AOT with OptimizationPreference (`Speed`) IlcInstructionSet (`skylake`)</th>
-            <td>196</td>
             <td>362.87</td>
             <td>411.99</td>
             <td>488.78</td>
@@ -446,7 +437,6 @@ The .NET 8 benchmarks include the number of cold and warm starts, alongside the 
         </tr>
         <tr>
             <th>ARM64 Native AOT with OptimizationPreference (`Speed`)</th>
-            <td>111</td>
             <td>320.89</td>
             <td>338.69</td>
             <td>398.22</td>
@@ -459,7 +449,6 @@ The .NET 8 benchmarks include the number of cold and warm starts, alongside the 
         </tr>
         <tr>
             <th>ARM64 Native AOT Minimal API</th>
-            <td>91</td>
             <td>498.09</td>
             <td>522.45</td>
             <td>895.03</td>
